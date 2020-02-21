@@ -1,0 +1,11 @@
+requests
+bs4
+numpy
+pandas
+boto3
+folium
+geopy
+urllib3
+lxml
+pickle
+botocore
