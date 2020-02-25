@@ -5,6 +5,6 @@ In this task I have made a crawler on AWS using Lambda function , S3 , DynamoDB 
 
 **image_name** : 'camera id'_ r'road_condition'_ w'weather_condition'_ 'measuredTime'
 
-UPDATE: 25/02/202 '
+UPDATE: $25/02/2020$
 
 Added the handler (sensors_handler.py) of 'LambdaTrafficSensors' lambda function that loads sensors_database.csv from S3 bucket 'reconai-traffic' to save sensors data in DynamoDB table.
