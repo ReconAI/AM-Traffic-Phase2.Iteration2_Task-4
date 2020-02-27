@@ -1,0 +1,23 @@
+# Logs:
+*.log
+
+# Python template
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sphinx documentation
+docs/_build/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+VENV/
+env.bak/
+venv.bak/
+
+# hidden folders
+.idea/
