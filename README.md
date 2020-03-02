@@ -11,7 +11,7 @@ Added the handler (sensors_handler.py) of 'LambdaTrafficSensors' lambda function
 
 ## Installation
 
-Use Python X.X or similar version.
+Use Python 3.6 or similar version.
 
 Installation to development:
 
