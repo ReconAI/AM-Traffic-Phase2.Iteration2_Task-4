@@ -37,6 +37,7 @@ zip -r ../package.zip .
 
 ## DynamoDB
 **On AWS console**: Create tables in the DynamoDB that will contain your Images data and Sensors data.
+
 **In IAM console manager**: Add required policies to the corresponding roles.
 <p align="center">
   <img src="figures/DynamoDB.png">
@@ -45,7 +46,7 @@ zip -r ../package.zip .
 ## Step Function
 **On AWS console**: Once you create a State Machine, adjust the workflow 
 (eg. Start -> Lambda1 -> Lambda2 -> End)<br/>
-Adjust the CloudWatch Cron in order to make the State Machine trigger in specific time<br/>
+Adjust the CloudWatch Cron in order to make the State Machine trigger in specific time.<br/>
 *PS*: Timer set on GMT.
 
 **In IAM console manager**: Add required policies to the corresponding roles.
