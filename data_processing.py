@@ -5,7 +5,6 @@ import json
 from utils import *
 import folium
 from folium.map import *
-from folium import plugins
 
 
 # data = 'camera-data.json / weather-data / weather-stations
