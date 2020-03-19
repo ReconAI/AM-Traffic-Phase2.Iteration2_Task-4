@@ -4,7 +4,6 @@ import pandas as pd
 import json
 from utils import *
 import folium
-from folium.map import *
 
 
 # data = 'camera-data.json / weather-data / weather-stations
