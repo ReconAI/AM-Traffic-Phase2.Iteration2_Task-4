@@ -4,7 +4,6 @@ import pandas as pd
 from io import StringIO
 import botocore.config
 import uuid
-import csv
 
 cfg = botocore.config.Config(retries={'max_attempts': 0})
 client = boto3.client('s3', config=cfg)
