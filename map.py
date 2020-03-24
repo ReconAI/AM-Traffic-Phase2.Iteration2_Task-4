@@ -5,13 +5,12 @@ import shutil
 import requests
 from bs4 import BeautifulSoup
 import urllib.request
-from urllib.request import urlopen
 from data_processing import *
 
 
 jsons = ['camera-data', 'camera-stations', 'road-conditions', 'weather-data', 'forecast-sections', 'weather-stations']
 def make_soup(url):
-    html = urlopen(url).read()
+    html = urllib.request.urlopen(url).read()
     return BeautifulSoup(html, "lxml")
 
 def downloader(urlfile,ext,file_name,path):
