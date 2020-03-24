@@ -119,11 +119,11 @@ def scrape(event, context):
   """
   Handler of the lambda function 'LambdaTraffic':
   Json files are downloaded from the traffic website to s3 bucket 'reconai-traffic'. 
-  From these files informations are extracted: dataframe of the images of cameras stations 
-  and dataframe of sensors data corresponding to the weather stations located nearby camera stations.
+  From these files informations are extracted: dataframe of the camera stations images. 
+  and dataframe of the data of sensors corresponding to the weather stations located nearby camera stations.
   Once informations are extracted, the images are downloaded in the directory 'images' in 'reconai-traffic' bucket and json files are deleted.
   Then the images database is saved in DynamoDB table 'images_database', 
-  and the sensors data is saved as a csv file in 'reconai-traffic' bucket to be used by another lambda function 'LambdaTrafficSensors.
+  and the sensors data is saved as a csv file in 'reconai-traffic' bucket to be used by another lambda function 'LambdaTrafficSensors'.
   """
   get_json_links('https://www.digitraffic.fi/en/road-traffic/')
   # ***************** Load Json files ****************** 
