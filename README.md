@@ -80,7 +80,7 @@ The added policies are:
 
 * For Step Functions:
 	* **AmazonLambdaFullAccess**: to enable the use of Lambda functions by the Step function.
-For DynamoDB:
+* For DynamoDB:
 	* **AwsApplicationAutoscalingDynamoDBTablePolicy**:  to enable the use of the Autoscaling policy for our DynamoDB table (in our case 'sensors_database' table needs 'WRITE_ONLY' Autoscaling policy).
 
 * For CloudWatch (Invoke Step Functions):
