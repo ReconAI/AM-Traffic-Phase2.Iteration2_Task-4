@@ -43,7 +43,7 @@ From a directory containing: **requirements.txt** and **sensors_handler.py**, cr
 ```sh
 python3.6 -m pip install -r requirements.txt -t .
 chmod -R 755 .
-zip -r ../package.zip .
+zip -r ../package_sens.zip .
 ```
 ### For both Lambda functions
 **On AWS console**: Upload the zip directly on Lambda console or on S3 bucket. Once uploaded, just save and be sure to check on the handler. Then, just run a test.
