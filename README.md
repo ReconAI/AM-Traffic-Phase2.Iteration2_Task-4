@@ -29,14 +29,23 @@ In this task a crawler was made on AWS using Lambda function , S3 , DynamoDB and
 ## Note
 Please note that 'Europe (Francfort) eu-central1' should be selected as region.
 ## Lambda function
-**On Local machine**: create package that contains scripts + used python libraries that are installed and packed as follows:
+### For the first Lambda function: *LambdaTraffic*
+From a directory containing: **requirements.txt**, **data_processing.py**, **handler.py** and **utils.py**, create a package that contains scripts + used python libraries that are installed and packed as follows:
 
 ```sh
 python3.6 -m pip install -r requirements.txt -t .
 chmod -R 755 .
 zip -r ../package.zip .
 ```
+### For the second Lambda function: *LambdaTrafficSensors*
+From a directory containing: **requirements.txt** and **sensors_handler.py**, create a package that contains scripts + used python libraries that are installed and packed as follows:
 
+```sh
+python3.6 -m pip install -r requirements.txt -t .
+chmod -R 755 .
+zip -r ../package.zip .
+```
+### For both Lambda functions
 **On AWS console**: Upload the zip directly on Lambda console or on S3 bucket. Once uploaded, just save and be sure to check on the handler. Then, just run a test.
 
 **In IAM console manager**: Add required policies to the corresponding roles .
