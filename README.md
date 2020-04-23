@@ -32,7 +32,7 @@ Please note that 'Europe (Francfort) eu-central1' should be selected as region.
 **On Local machine**: create package that contains scripts + used python libraries that are installed and packed as follows:
 
 ```sh
-pip install package – t .
+pip install package -t .
 chmod -R 755 .
 zip -r ../package.zip .
 ```
