@@ -32,11 +32,10 @@ Please note that 'Europe (Francfort) eu-central1' should be selected as region.
 **On Local machine**: create package that contains scripts + used python libraries that are installed and packed as follows:
 
 ```sh
-pip install package -t .
+python3.6 -m pip install package -t .
 chmod -R 755 .
 zip -r ../package.zip .
 ```
-**PS**: Use Python 3.6 or similar version.
 
 **On AWS console**: Upload the zip directly on Lambda console or on S3 bucket. Once uploaded, just save and be sure to check on the handler. Then, just run a test.
 
