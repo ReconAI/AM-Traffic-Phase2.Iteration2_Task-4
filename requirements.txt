@@ -7,6 +7,6 @@ folium
 geopy
 urllib3
 lxml
-pickle
+pickle-mixin
 botocore
 uuid
