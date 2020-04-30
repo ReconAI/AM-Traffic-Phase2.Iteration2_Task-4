@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""
+create Finland map that contains camera and weather stations.
+"""
 # Import libraries
 import os
 import sys
