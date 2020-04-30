@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""
+Handler of the lambda function 'LambdaTrafficSensors'.
+"""
 # Import libraries
 from io import StringIO
 import uuid
