@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 TrafficCrawler class responsible for extracting main information from json files.
 Builds images and sensors databases and to create Finland map that contains camera and
