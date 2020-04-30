@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""
+Handler of the lambda function 'LambdaTraffic'.
+"""
 # Import libraries
 from __future__ import print_function
 from io import StringIO
